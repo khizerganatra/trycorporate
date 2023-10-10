@@ -33,8 +33,9 @@ export default function Footer() {
                 src="v.png"
                 alt=""
               />
-          <span className="ml-3 text-xl">Corporate Mark</span>
+          
         </a>
+        <h1 className="ml-3 text-xl font-bold">Corporate Mark</h1>
         <p className="mt-2 text-lg text-gray-500">We are committed to providing high-quality custom printing services in Pakistan. Quality print and timely delivery is our motto.</p>
       </div>
       <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
@@ -42,45 +43,59 @@ export default function Footer() {
         <div className="lg:w-1/2 md:w-1/2 w-full px-32">
           <h2 className="title-font font-bold text-lg text-teal-700 tracking-widest  mb-3">CATEGORIES</h2>
           <nav className="list-none mb-10">
-            <li className='pb-3'>
+            <li className='pb-3 text-left'>
             <FontAwesomeIcon icon={faAngleRight}  color="teal"  className='me-1'/>
               <a className="text-gray-600 hover:text-gray-800 text-sm"> Corporate Photoghaphy</a>
             </li>
-            <li className='pb-3'>
+            <li className='pb-3 text-left'>
             <FontAwesomeIcon icon={faAngleRight}  color="teal"  className='me-1'/>
               <a className="text-gray-600 hover:text-gray-800 text-sm">Giveaway & Promotional Items</a>
             </li>
-            <li className='pb-3'>
+            <li className='pb-3 text-left'>
               <FontAwesomeIcon icon={faAngleRight}  color="teal"  className='me-1'/>
               <a className="text-gray-600 hover:text-gray-800 text-sm">Indoor & Outdoor Signs</a>
             </li>
-            <li className='pb-3'>
+            <li className='pb-3 text-left'>
             <FontAwesomeIcon icon={faAngleRight}  color="teal"  className='me-1'/>
               <a className="text-gray-600 hover:text-gray-800 text-sm">Graphic Design</a>
             </li>
-            <li className='pb-3'>
+            <li className='pb-3 text-left'>
             <FontAwesomeIcon icon={faAngleRight}  color="teal"  className='me-1'/>
               <a className="text-gray-600 hover:text-gray-800 text-sm">Offset Printing</a>
             </li>
+            <li className='pb-3 text-left'>
+            <FontAwesomeIcon icon={faAngleRight}  color="teal"  className='me-1'/>
+              <a className="text-gray-600 hover:text-gray-800 text-sm">Digital printing</a>
+            </li>
+            <li className='pb-3 text-left'>
+            <FontAwesomeIcon icon={faAngleRight}  color="teal"  className='me-1'/>
+              <a className="text-gray-600 hover:text-gray-800 text-sm">Labeling</a>
+            </li>
+            <li className='pb-3 text-left'>
+            <FontAwesomeIcon icon={faAngleRight}  color="teal"  className='me-1'/>
+              <a className="text-gray-600 hover:text-gray-800 text-sm">Promotional services</a>
+            </li>
+            
+
           </nav>
         </div>
         <div className="lg:w-1/2 md:w-1/2 w-full px-4">
           <h2 className="title-font font-bold text-lg text-teal-700 tracking-widest  mb-3">CONTACT DETAILS</h2>
-          <nav className="list-none mb-10">
+          <nav className="list-none mb-10 ">
 
-            <li className='pb-3'>
+            <li className='pb-3 text-left'>
               <FontAwesomeIcon icon={faPhoneVolume}  color="teal"  className='me-2'/>
               <a className="text-gray-600 hover:text-gray-800 text-sm">+923402111863</a>
             </li>
            
-            <li className='pb-3'>
+            <li className='pb-3 text-left'>
             <FontAwesomeIcon icon={faEnvelope}  color="teal"  className='me-2'/>
               <a className="text-gray-600 hover:text-gray-800 text-sm">corporatemark.pk@gmail.com</a>
             </li>
 
-            <li className='pb-3'>
-            <FontAwesomeIcon icon={faMapLocationDot}  color="teal"  className='me-2'/>
-              <a className="text-gray-600 hover:text-gray-800 text-sm">Office # 02, Moin Terrace, I.I Chundrigar Rd, near Jung Press UBL Bank Street, City Railway Colony, Karachi, Karachi City, Sindh 74500</a>
+            <li className='pb-3 text-left '>
+            <FontAwesomeIcon icon={faMapLocationDot}  color="teal"  className='me-2 ' />
+              <a className="text-gray-600 hover:text-gray-800 text-sm">Office # 02, Moin Terrace, Block-A , I.I Chundrigar Rd, Near UBL Bank Street # 02 , City Railway Colony, Karachi, 74500.</a>
             </li>
 
             <li className='pb-3 mt-5'>
@@ -95,8 +110,8 @@ export default function Footer() {
     </div>
     <div className="bg-gray-100">
       <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-        <p className="text-gray-500 text-sm text-center sm:text-left">© 2023 CM —
-          <a href="https://twitter.com/corporateMark" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@KAG</a>
+        <p className="text-gray-500 text-sm text-center sm:text-left">Copyright © 2023 Corporate Mark
+          <a href="#" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank"></a>
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
           <a className="text-gray-500">

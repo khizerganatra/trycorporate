@@ -13,8 +13,8 @@ export default function HeroSec1() {
             </div>
 
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 className="text-2xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
-              Corporate Mark
+            <h1 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-6xl" style={{ fontFamily: 'Montserrat, sans-serif' }}>
+              Corporate <span className='text-teal-600' > Mark</span>
             </h1>
                 <p class="mb-8 leading-relaxed p-4">Where Design Meets Trust. We’re more than a brand development company; we’re architects of memorable experiences. With creativity, expertise, and a commitment to excellence, we craft legendary brands. Explore our services in Designing, Branding, Printing, Signage, and Promotional Products. Join us in the journey of inspiration and transformation.</p>
             
