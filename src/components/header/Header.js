@@ -40,13 +40,13 @@ export default function Header() {
 
   return (
   
-
+    // 
  
-    <div className="bg-white pt-14">
+    <div className="bg-white pt-14 " style={{backgroundColor: '#0068B7' , color:'#fff'}} >
       <header className="absolute inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="./" className="-m-1.5 p-1.5">
               <span className="sr-only">Corporate Mark</span>
               <img
                 className="h-16 w-auto"
@@ -67,13 +67,13 @@ export default function Header() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
+              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6  text-gray-900 underline-offset-4" style={{fontFamily:'Merienda'}}> 
                 {item.name}
               </a>
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <button onClick={handleWhatsAppClick} className='align-baseline flex'> <FontAwesomeIcon icon={faWhatsapp}  color="teal" size='2x' className='me-1'/>WhatsApp</button>
+          <button onClick={handleWhatsAppClick} className='align-baseline flex'> <FontAwesomeIcon icon={faWhatsapp}  color="white" size='2x' className='me-1'/>WhatsApp</button>
            
           </div>
         </nav>
@@ -81,11 +81,11 @@ export default function Header() {
           <div className="fixed inset-0 z-50" />
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
-              <a href="#" className="-m-1.5 p-1.5">
+              <a href="./" className="-m-1.5 p-1.5">
                 <span className="sr-only">Corporate Mark</span>
                 <img
                   className="h-16 w-auto"
-                  src="v.png"
+                  src="vwhite.png"
                   alt=""
                 />
               </a>
@@ -106,6 +106,7 @@ export default function Header() {
                       key={item.name}
                       href={item.href}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                      style={{fontFamily:'Merienda'}}
                     >
                       {item.name}
                     </a>
@@ -116,7 +117,7 @@ export default function Header() {
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
-                    <button onClick={handleWhatsAppClick} className='align-baseline flex'> <FontAwesomeIcon icon={faWhatsapp}  color="teal" size='2x' className='me-1'/>WhatsApp</button>
+                    <button onClick={handleWhatsAppClick} className='align-baseline flex'> <FontAwesomeIcon icon={faWhatsapp}  color="green" size='2x' className='me-1'/>WhatsApp</button>
            
                   </a>
                 </div>

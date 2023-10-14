@@ -24,7 +24,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="text-gray-600 body-font bg-teal-100">
+    <footer className="text-white body-font " style={{backgroundColor:'#0068B7'}}>
     <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
       <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
@@ -35,74 +35,71 @@ export default function Footer() {
               />
           
         </a>
-        <h1 className="ml-3 text-xl font-bold">Corporate Mark</h1>
-        <p className="mt-2 text-lg text-gray-500">We are committed to providing high-quality custom printing services in Pakistan. Quality print and timely delivery is our motto.</p>
+        <h1 className=" text-xl font-bold text-black" style={{ fontFamily: 'Roboto,' }}>CORPORATE MARK</h1>
+        <p className="mt-2 text-lg text-white">We are committed to providing high-quality custom printing services in Pakistan. Quality print and timely delivery is our motto.</p>
       </div>
       <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
       
         <div className="lg:w-1/2 md:w-1/2 w-full px-32">
-          <h2 className="title-font font-bold text-lg text-teal-700 tracking-widest  mb-3">CATEGORIES</h2>
+          <h2 className="title-font font-bold text-lg text-black tracking-widest  mb-3">CATEGORIES</h2>
           <nav className="list-none mb-10">
+            
             <li className='pb-3 text-left'>
-            <FontAwesomeIcon icon={faAngleRight}  color="teal"  className='me-1'/>
-              <a className="text-gray-600 hover:text-gray-800 text-sm"> Corporate Photoghaphy</a>
+            
+              <a className="text-white hover:text-gray-800 text-sm">Giveaway & Promotional Items</a>
             </li>
             <li className='pb-3 text-left'>
-            <FontAwesomeIcon icon={faAngleRight}  color="teal"  className='me-1'/>
-              <a className="text-gray-600 hover:text-gray-800 text-sm">Giveaway & Promotional Items</a>
+              
+              <a className="text-white hover:text-gray-800 text-sm">Indoor & Outdoor Signs</a>
             </li>
             <li className='pb-3 text-left'>
-              <FontAwesomeIcon icon={faAngleRight}  color="teal"  className='me-1'/>
-              <a className="text-gray-600 hover:text-gray-800 text-sm">Indoor & Outdoor Signs</a>
+            
+              <a className="text-white hover:text-gray-800 text-sm">Graphic Design</a>
             </li>
             <li className='pb-3 text-left'>
-            <FontAwesomeIcon icon={faAngleRight}  color="teal"  className='me-1'/>
-              <a className="text-gray-600 hover:text-gray-800 text-sm">Graphic Design</a>
+            
+              <a className="text-white hover:text-gray-800 text-sm">Offset Printing</a>
             </li>
             <li className='pb-3 text-left'>
-            <FontAwesomeIcon icon={faAngleRight}  color="teal"  className='me-1'/>
-              <a className="text-gray-600 hover:text-gray-800 text-sm">Offset Printing</a>
+            
+              <a className="text-white hover:text-gray-800 text-sm">Digital printing</a>
             </li>
             <li className='pb-3 text-left'>
-            <FontAwesomeIcon icon={faAngleRight}  color="teal"  className='me-1'/>
-              <a className="text-gray-600 hover:text-gray-800 text-sm">Digital printing</a>
+            
+              <a className="text-white hover:text-gray-800 text-sm">Labeling</a>
             </li>
             <li className='pb-3 text-left'>
-            <FontAwesomeIcon icon={faAngleRight}  color="teal"  className='me-1'/>
-              <a className="text-gray-600 hover:text-gray-800 text-sm">Labeling</a>
-            </li>
-            <li className='pb-3 text-left'>
-            <FontAwesomeIcon icon={faAngleRight}  color="teal"  className='me-1'/>
-              <a className="text-gray-600 hover:text-gray-800 text-sm">Promotional services</a>
+            
+              <a className="text-white hover:text-gray-800 text-sm">Promotional services</a>
             </li>
             
 
           </nav>
         </div>
         <div className="lg:w-1/2 md:w-1/2 w-full px-4">
-          <h2 className="title-font font-bold text-lg text-teal-700 tracking-widest  mb-3">CONTACT DETAILS</h2>
+          <h2 className="title-font font-bold text-lg text-black tracking-widest  mb-3">CONTACT DETAILS</h2>
           <nav className="list-none mb-10 ">
 
             <li className='pb-3 text-left'>
-              <FontAwesomeIcon icon={faPhoneVolume}  color="teal"  className='me-2'/>
-              <a className="text-gray-600 hover:text-gray-800 text-sm">+923402111863</a>
+              <FontAwesomeIcon icon={faPhoneVolume}  color="white"  className='me-2'/>
+              <a className="text-white hover:text-gray-800 text-sm">+923402111863</a>
             </li>
            
             <li className='pb-3 text-left'>
-            <FontAwesomeIcon icon={faEnvelope}  color="teal"  className='me-2'/>
-              <a className="text-gray-600 hover:text-gray-800 text-sm">corporatemark.pk@gmail.com</a>
+            <FontAwesomeIcon icon={faEnvelope}  color="white"  className='me-2'/>
+              <a className="text-white hover:text-gray-800 text-sm">corporatemark.pk@gmail.com</a>
             </li>
 
             <li className='pb-3 text-left '>
-            <FontAwesomeIcon icon={faMapLocationDot}  color="teal"  className='me-2 ' />
-              <a className="text-gray-600 hover:text-gray-800 text-sm">Office # 02, Moin Terrace, Block-A , I.I Chundrigar Rd, Near UBL Bank Street # 02 , City Railway Colony, Karachi, 74500.</a>
+            <FontAwesomeIcon icon={faMapLocationDot}  color="white"  className='me-2 ' />
+              <a className="text-white hover:text-gray-800 text-sm">Office # 02, Moin Terrace, Block-A , I.I Chundrigar Rd, Near UBL Bank Street # 02 , City Railway Colony, Karachi, 74500.</a>
             </li>
 
             <li className='pb-3 mt-5'>
-              <a href='https://www.facebook.com/CorporateMark.pk' target='_blank'><FontAwesomeIcon icon={faFacebookF}  color="teal" size='2x' className='me-9'/></a>
-              <a href='https://www.instagram.com/corporatemark.pk/' target='_blank'><FontAwesomeIcon icon={faInstagram}  color="teal"  size='2x' className='me-9'/></a>
-              <a href='https://www.linkedin.com/company/corporate-mark/about/' target='_blank'><FontAwesomeIcon icon={faLinkedinIn}  color="teal" size='2x' className='me-6'/></a>
-              <button onClick={handleWhatsAppClick} className=''> <FontAwesomeIcon icon={faWhatsapp}  color="teal" size='2x' className='me-1'/></button>
+              <a href='https://www.facebook.com/CorporateMark.pk' target='_blank'><FontAwesomeIcon icon={faFacebookF}  color="white" size='2x' className='me-9'/></a>
+              <a href='https://www.instagram.com/corporatemark.pk/' target='_blank'><FontAwesomeIcon icon={faInstagram}  color="white"  size='2x' className='me-9'/></a>
+              <a href='https://www.linkedin.com/company/corporate-mark/about/' target='_blank'><FontAwesomeIcon icon={faLinkedinIn}  color="white" size='2x' className='me-6'/></a>
+              <button onClick={handleWhatsAppClick} className=''> <FontAwesomeIcon icon={faWhatsapp}  color="white" size='2x' className='me-1'/></button>
             </li>
           </nav>
         </div>
@@ -111,7 +108,7 @@ export default function Footer() {
     <div className="bg-gray-100">
       <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
         <p className="text-gray-500 text-sm text-center sm:text-left">Copyright © 2023 Corporate Mark
-          <a href="#" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank"></a>
+          <a href="#" rel="noopener noreferrer" className="text-white ml-1" target="_blank"></a>
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
           <a className="text-gray-500">

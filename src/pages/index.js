@@ -4,6 +4,8 @@ import HeroSec1 from '@/components/heroSec1/HeroSec1'
 import { Inter } from 'next/font/google'
 import HeroSec2 from '@/components/heroSec2/HeroSec2'
 import ServiceCards from '@/components/serviceCards/ServiceCards'
+import Cards from '@/components/cards/Cards'
+import Carousel from '@/components/carousel/CarouselProducts'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +17,10 @@ export default function Home() {
       <Header />
       <HeroSec1 />
       <HeroSec2 />
+      <Cards/>
+      <Carousel/>
       <ServiceCards/>
+      
       <Footer/>
     </main>
   )
